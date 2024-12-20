@@ -1,0 +1,17 @@
+﻿<Window x:Class="EmojiRendering.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EmojiRendering"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image Source="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg?auto=format&amp;q=60&amp;fit=max&amp;w=930" Stretch="Fill"/>
+        <local:EmojiTextBlock
+            FontSize="28" 
+            Text="😎😋🥵🥴😠😷😡😳😧😰🤪🤪😬😩🤯😬😵🤪😳🥶🥵😱🥴😠😡🤬😷😇🤧🤮🤢🤕🤒🥳🥸🥺🥹🤠🤡🤭🤫🙂🤓🧐🙂🤥😈👿👽👻☠💀👺👹👾🤖💩😺😸😹🐵🙊🙉🙈🐭🐗🐷🐮🐻🐨🐼🐸🦓😭😢😤😟😓🙁☹😕😔🤑😅😆😉😊😋🤐😯😪😫🥱😴😒🤤😝😜😛😌😓😔😕🙃😞😖🙁😲🤑😟😤😢😭😦😧😰😬🤯😩👥👁🧟💪🦵✊🤲👍🦾🫀🧠" 
+            TextWrapping="Wrap"  
+            Margin="12"/>
+    </Grid>
+</Window>
